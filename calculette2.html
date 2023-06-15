@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculette 2</title>
+</head>
+<body>
+	
+<script type="text/javascript">
+
+let x = prompt("Entrez le premier nombre:");
+let y = prompt("Entrez le deuxième nombre:");
+let operateur = prompt("Entrez l'opérateur (+, -, *, /):");
+let resultat;
+
+if (operateur == "+") {
+    resultat = parseFloat(x) + parseFloat(y);
+} else if (opérateur == "-") {
+    resultat = parseFloat(x) - parseFloat(y);
+} else if (opérateur == "*") {
+    resultat = parseFloat(x) * parseFloat(y);
+} else if (opérateur == "/") {
+    resultat = parseFloat(x) / parseFloat(y);
+}
+
+alert("Le résultat est: " + resultat);
+
+// Parsetfloat converti les valeurs saisies par l’utilisateur (qui sont des chaînes de caractères) en nombres afin de pouvoir effectuer les calculs.
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calc</title>
+</head>
+<body>
+<script type="text/javascript">
+const nombre1 = Number(window.prompt("Nombre", ""));
+const nombre2 = Number(window.prompt("Nombre", ""));
+let signe = prompt("Entrez un opérateur")
+if (signe== "+") {
+	let calcule = nombre1+nombre2;
+	alert(calcule);
+}
+else{
+	alert("Chargement 10%");
+}
+if(signe=="-"){
+	let calcule = nombre1-nombre2;
+	alert(calcule);
+}
+else{
+	alert("Chargement 80%");
+}
+if(signe=="*"){
+	let calcule = nombre1*nombre2;
+	alert(calcule);
+}
+else{
+	alert("Chargement 99%");
+}
+if (signe=="/") {
+	let calcule = nombre1/nombre2;
+	alert(calcule)
+}
+else{
+	alert("Résultat terminé");
+}
+
+
+</script>
+</body>
+</html>
